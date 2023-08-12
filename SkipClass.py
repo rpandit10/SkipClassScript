@@ -21,6 +21,8 @@ pyautogui.press('enter')
 time.sleep(7)
 pyautogui.click(150,250)
 time.sleep(.5)
+
+# writes email
 pyautogui.press('tab')
 pyautogui.write('Class Absence Tomorrow')
 time.sleep(1)
@@ -48,6 +50,7 @@ pyautogui.write('Thank you again, ')
 pyautogui.press('enter')
 pyautogui.write('Raunak Pandit')
 
+# returns user to subject line to input professor name
 n = 0
 while (n < 15):
     pyautogui.press('tab')
